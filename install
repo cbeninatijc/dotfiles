@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cp ./.vimrc ~/.vimrc
+
+vim +'PlugInstall --sync' +qa
